@@ -1,0 +1,61 @@
+:root {
+	--dark: #374151;
+	--darker: #1F2937;
+	--darkest: #111827;
+	--grey: #6B7280;
+	--pink: #EC4899;
+	--purple: #8B5CF6;
+	--light: #EEE;
+}
+.body{
+    height: 37rem;
+    color: #FFF;
+	background-color: var(--dark);
+
+}
+.cardcont{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:1rem
+
+}
+.maincont{
+    height: 59.4rem;
+    color: #FFF;
+	background-color: var(--dark);
+
+}
+.maintxt{
+    background-color:var(--dark) ;
+    text-align: center;
+}
+.card2{
+    position: relative;
+    left:2rem;
+}
+.card{
+	background-image:linear-gradient(rgba(255, 0, 0, 0.813),rgba(28, 28, 237, 0.833));
+	height: 25rem;
+}
+.btn{ 
+    position: relative;
+    top: 9rem;
+    display: flex;
+    justify-content:center;
+}
+.nav-link{
+	background-image: linear-gradient(to right, var(--pink), var(--purple));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+.navbar-brand{
+    background-image: linear-gradient(to right, var(--pink), var(--purple));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+body{
+    background-color: var(--dark);
+}

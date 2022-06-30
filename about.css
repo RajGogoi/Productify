@@ -1,0 +1,63 @@
+:root {
+	--dark: #374151;
+	--darker: #1F2937;
+	--darkest: #111827;
+	--grey: #6B7280;
+	--pink: #EC4899;
+	--purple: #8B5CF6;
+	--light: #EEE;
+}
+
+.maincont{
+   
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:5rem;
+    
+}
+.card2{width:50%;
+position: relative;
+left:18rem;}
+.nav-link{
+	background-image: linear-gradient(to right, var(--pink), var(--purple));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+.navbar-brand{
+    background-image: linear-gradient(to right, var(--pink), var(--purple));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+.cardcont{
+    height: 59.4rem;
+    color: #FFF;
+	background-color: var(--dark);
+
+}
+.maintxt{
+    
+    color: #FFF;
+	background-color: var(--dark);
+  
+}
+.card2{
+    
+        background-image:linear-gradient(rgba(255, 0, 0, 0.813),rgba(28, 28, 237, 0.833));
+        height: 25rem;
+        position: relative;
+        top:12rem;
+        left:30rem;
+    
+    
+}
+.card-text{
+    position: relative;
+    top:4rem;
+    text-align: left;
+}
+body{
+    background-color: var(--dark);
+}

@@ -1,0 +1,97 @@
+:root {
+	--dark: #374151;
+	--darker: #1F2937;
+	--darkest: #111827;
+	--grey: #6B7280;
+	--pink: #EC4899;
+	--purple: #8B5CF6;
+	--light: #EEE;
+}
+
+.cardcontainer{
+    display: flex;
+	position: relative;
+	right: 0.5rem;
+    
+}
+.card2{
+position:relative;
+/* top: 300px; */
+left: 30px;
+}
+body{
+ /* background-color: #cd7c7c; */
+background-position:1000%;
+background-repeat: no-repeat;
+color: #FFF;
+background-color: var(--dark);
+/* background-image: linear-gradient(rgb(163, 20, 163),rgb(222, 114, 132)); */
+/* background-image: url('https://vip-go.shutterstock.com/blog/wp-content/uploads/sites/5/2020/05/shutterstock_407554567.jpg?w=750'); */
+height: fit-content;
+}
+.nav-link{
+	background-image: linear-gradient(to right, var(--pink), var(--purple));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+.navbar-brand{
+    background-image: linear-gradient(to right, var(--pink), var(--purple));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+.card{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #1c1c1c;
+}
+.space{
+	display: flex;
+	margin: 50px;
+}
+.card2-1{
+
+margin-bottom: 0rem;
+padding: 0rem;
+height: 0%;
+position: relative;
+right: 5rem;
+
+
+}
+.card2-2{
+	
+	margin-bottom: 0rem;
+	
+}
+.innerbox{
+	margin-top: 6rem;
+	margin-bottom: 0rem;
+	display: flex;
+	position: relative;
+	left: 12rem;
+	
+}
+.space{
+	margin-bottom: 0%;
+}
+.card2-1.card{
+	
+}
+.card{
+	background-image:linear-gradient(rgba(255, 0, 0, 0.813),rgba(28, 28, 237, 0.833));
+	height: 25rem;
+}
+.cardcontainer{
+	position: relative;
+	left:0rem;
+	right:0.5rem;
+	top:1rem;
+	display: flex;
+	justify-content: center;
+}
+.foot
+{
+	color:rgb(239, 230, 230);
+}
